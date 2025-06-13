@@ -1,20 +1,30 @@
-# Miami Waiter Training Project 🚀
+# Miami Waiter Training Project 🍸🍽️
 
-This is a full-stack training platform for waiters and staff at Miami Waiter Training.
+This is a full-stack web application for managing training content and employee information for waiters. [it is still beeing developed]
 
-It includes:
+## Stack
 
-- ✅ **Admin Dashboard**  
-    - Manage Employees
-    - Manage Cocktail Recipes
-    - Manage Food & Dessert Recipes
-- ✅ **Employee Dashboard**  
-    - Training Modules
-    - View Cocktail Recipes
-    - View Other Employees
-    - Profile
+- **Frontend** → React.js
+- **Backend** → Ruby on Rails 8
+- **Database** → PostgreSQL
+
+---
+
+## Features
+
+✅ Admin can:
+
+- Manage Employees (CRUD)
+- Manage Cocktail Recipes (CRUD)
+- View Dessert & Food Recipes
+
+✅ Employees can:
+
+- View their Profile
+- View other Employees
+- View Training Materials
+- View Cocktail Recipes
 
 ---
 
 ## 🏗️ Project Structure
-
