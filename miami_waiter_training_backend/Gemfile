@@ -21,6 +21,7 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'jwt', '~> 2.6'
 # for cors protection 
 gem 'rack-cors'
+gem 'dotenv-rails', groups: [:development, :test]
 
 # Use the database-backed adapters for Rails.cache, Active Job, and Action Cable
 gem "solid_cache"
