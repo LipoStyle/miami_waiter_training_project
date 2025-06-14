@@ -1,0 +1,30 @@
+.rules-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  background-color: #fdfdfd;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.rules-title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  color: #1a1a1a;
+  margin-bottom: 2rem;
+}
+
+.rules-list {
+  list-style: decimal inside;
+  padding: 0;
+  margin: 0;
+  color: #444;
+}
+
+.rule-item {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}

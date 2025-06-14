@@ -1,0 +1,42 @@
+.employee-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.employee-sidebar {
+  width: 240px;
+  background-color: #2A2A2A;
+  color: #FFF;
+  padding: 1rem;
+}
+
+.employee-sidebar-title {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.employee-sidebar-menu {
+  list-style: none;
+  padding: 0;
+}
+
+.employee-sidebar-menu li {
+  margin-bottom: 1rem;
+}
+
+.employee-sidebar-link {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.2s;
+}
+
+.employee-sidebar-link:hover {
+  color: #10b981; /* Nice green hover */
+}
+
+.employee-main {
+  flex: 1;
+  padding: 2rem;
+  background-color: #F9FAFB; /* light background for content */
+}

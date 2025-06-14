@@ -1,0 +1,51 @@
+.place-section {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  background-color: #fefefe;
+  border-radius: 16px;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.06);
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.8;
+  color: #222;
+}
+
+.place-title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  color: #b25c26;
+  margin-bottom: 2rem;
+}
+
+.place-content p {
+  font-size: 1.1rem;
+  margin-bottom: 1.6rem;
+}
+.place-figure {
+  margin: 3rem auto;
+  text-align: center;
+  padding: 1.5rem;
+  border: 4px double #bfa76f; /* classic deco gold */
+  position: relative;
+  display: inline-block;
+  background-color: #fffdf6;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  max-width: 750px;
+}
+
+.place-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+}
+
+.place-caption {
+  font-size: 0.95rem;
+  color: #7a6f4d;
+  margin-top: 0.8rem;
+  font-style: italic;
+  font-weight: 500;
+}

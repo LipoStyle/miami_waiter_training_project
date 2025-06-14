@@ -1,0 +1,51 @@
+.codes-section {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  background-color: #fffefc;
+  border-radius: 16px;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.05);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.codes-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #b25c26;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.code-group {
+  margin-bottom: 2.5rem;
+}
+
+.group-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #444;
+  margin-bottom: 1rem;
+  border-left: 4px solid #b25c26;
+  padding-left: 0.75rem;
+}
+
+.code-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.code-label {
+  min-width: 80px;
+  font-weight: 600;
+  color: #1e1e1e;
+}
+
+.code-meaning {
+  flex: 1;
+  color: #555;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}

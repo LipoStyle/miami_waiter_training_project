@@ -1,0 +1,32 @@
+.coffee-section {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem 1.5rem;
+  background-color: #faf7f3;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.coffee-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+  color: #b25c26;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #e0d8cf;
+  padding-bottom: 0.5rem;
+}
+
+.coffee-steps {
+  margin: 0;
+  padding-left: 1.2rem;
+  list-style-type: decimal;
+}
+
+.coffee-step-item {
+  margin-bottom: 0.8rem;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}

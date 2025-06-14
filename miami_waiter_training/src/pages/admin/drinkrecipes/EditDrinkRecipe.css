@@ -1,0 +1,88 @@
+.create-drink-recipe-page {
+  padding: 2rem;
+}
+
+.create-drink-recipe-page h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.create-drink-recipe-form {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.create-drink-recipe-form h2 {
+  font-size: 1.3rem;
+  margin-top: 2rem;
+  color: #374151;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 0.5rem;
+}
+
+.create-drink-recipe-form input,
+.create-drink-recipe-form textarea {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.create-drink-recipe-form input:focus,
+.create-drink-recipe-form textarea:focus {
+  outline: none;
+  border-color: #10b981;
+  box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.3);
+}
+
+.create-drink-recipe-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.nested-item {
+  background-color: #f9fafb;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.create-drink-recipe-form button[type="button"] {
+  padding: 0.5rem 1rem;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s;
+  width: fit-content;
+}
+
+.create-drink-recipe-form button[type="button"]:hover {
+  background-color: #2563eb;
+}
+
+.submit-button {
+  padding: 0.75rem 1.5rem;
+  background-color: #10b981;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 2rem;
+  transition: background-color 0.2s;
+}
+
+.submit-button:hover {
+  background-color: #059669;
+}

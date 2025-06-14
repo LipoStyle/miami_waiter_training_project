@@ -1,0 +1,45 @@
+.servicesteps-section {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  background-color: #fffdfb;
+  border-radius: 16px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.05);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.servicesteps-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #b25c26;
+  margin-bottom: 3rem;
+}
+
+.servicesteps-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.servicestep-item {
+  background: #fff;
+  border-left: 4px solid #b25c26;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+}
+
+.servicestep-heading {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+  color: #333;
+}
+
+.servicestep-text {
+  font-style: italic;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #555;
+}

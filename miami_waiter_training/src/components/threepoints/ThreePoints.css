@@ -1,0 +1,35 @@
+.threepoints-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  background-color: #fdfdfb;
+  border-radius: 16px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.06);
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.threepoints-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #b25c26;
+  margin-bottom: 3rem;
+}
+
+.point {
+  margin-bottom: 3rem;
+}
+
+.point-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+.point p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}

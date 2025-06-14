@@ -1,0 +1,24 @@
+.values-section {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  background-color: #fff8f0;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.7;
+  color: #333;
+}
+
+.values-title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #b25c26;
+}
+
+.values-content p {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}

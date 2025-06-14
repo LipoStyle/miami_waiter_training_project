@@ -1,0 +1,30 @@
+.training-page {
+  padding: 2rem;
+}
+
+.training-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.training-card {
+  background-color: #f3f3f3;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.training-card:hover {
+  background-color: #e6e6e6;
+  transform: translateY(-2px);
+}
+
+
+.training-card h3 {
+  margin-bottom: 0.5rem;
+}

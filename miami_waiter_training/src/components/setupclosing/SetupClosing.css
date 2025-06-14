@@ -1,0 +1,48 @@
+.setupclosing-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+/* Each major section (Αρχικό Setup, Κλείσιμο Μπαρ, κ.λπ.) */
+.section-block {
+  margin-bottom: 3.5rem;
+}
+
+.section-title {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: #b25c26;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #e0d8cf;
+  padding-bottom: 0.5rem;
+}
+
+/* Each subsection within a section (π.χ. Καφές, Πίσω, Προετοιμασία) */
+.subsection-block {
+  margin-bottom: 2rem;
+  padding-left: 1rem;
+  border-left: 4px solid #e0d8cf;
+}
+
+.subsection-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 0.75rem;
+}
+
+/* Ordered list of steps */
+.steps-list {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.step-item {
+  margin-bottom: 0.6rem;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #555;
+}

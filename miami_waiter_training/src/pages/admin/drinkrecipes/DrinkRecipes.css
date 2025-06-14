@@ -1,0 +1,151 @@
+.drink-recipes-page {
+  padding: 2rem;
+}
+
+.drink-recipes-page h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.drink-recipes-page p {
+  color: #4b5563;
+  margin-bottom: 1.5rem;
+}
+
+.create-drink-recipe-button {
+  padding: 0.75rem 1.5rem;
+  background-color: #10b981; /* Green */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  transition: background-color 0.2s;
+}
+
+.create-drink-recipe-button:hover {
+  background-color: #059669;
+}
+
+.search-bar {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.75rem 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.search-bar:focus {
+  outline: none;
+  border-color: #10b981;
+  box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.3);
+}
+
+.drink-recipes-card-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.drink-recipe-card {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s, box-shadow 0.2s;
+  text-align: center;
+}
+
+.drink-recipe-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+}
+
+.drink-recipe-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.drink-recipe-placeholder {
+  width: 120px;
+  height: 120px;
+  border-radius: 8px;
+  background-color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6b7280;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.drink-recipe-card h3 {
+  margin-bottom: 0.5rem;
+}
+
+.drink-recipe-card p {
+  color: #555;
+  margin: 0.25rem 0;
+}
+
+.drink-recipe-tags {
+  margin-top: 0.5rem;
+}
+
+.drink-recipe-tag {
+  display: inline-block;
+  background-color: #f3f4f6;
+  color: #374151;
+  padding: 0.25rem 0.5rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  margin: 0 0.25rem 0.25rem 0;
+}
+
+.drink-recipe-card-actions {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.drink-recipe-card-actions button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s;
+}
+
+.drink-recipe-card-actions button:hover {
+  opacity: 0.9;
+}
+
+.drink-recipe-card-actions button:nth-child(1) {
+  background-color: #3b82f6; /* View → blue */
+  color: white;
+}
+
+.drink-recipe-card-actions button:nth-child(2) {
+  background-color: #facc15; /* Edit → yellow */
+  color: black;
+}
+
+.drink-recipe-card-actions button:nth-child(3) {
+  background-color: #ef4444; /* Delete → red */
+  color: white;
+}
+
+.drink-recipe-card.deleting {
+  opacity: 0;
+  transform: scale(0.95);
+  pointer-events: none;
+}

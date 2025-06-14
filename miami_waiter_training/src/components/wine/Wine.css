@@ -1,0 +1,96 @@
+.wine-section {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 2rem 1.5rem;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.wine-main-title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  color: #b25c26;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #e0d8cf;
+  padding-bottom: 0.5rem;
+}
+
+.wine-category-block {
+  margin-bottom: 2.5rem;
+}
+
+.wine-category-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 1rem;
+  border-left: 4px solid #b25c26;
+  padding-left: 0.75rem;
+}
+
+.wine-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+
+/* Single wine card */
+.wine-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+.wine-image {
+  width: 140px;
+  height: 180px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.wine-info {
+  padding: 1rem 1.25rem;
+  flex: 1;
+}
+
+.wine-name {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #222;
+}
+
+.wine-availability {
+  font-size: 0.97rem;
+  color: #666;
+  margin-bottom: 0.75rem;
+  font-style: italic;
+}
+
+.wine-description {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #444;
+}
+
+/* Responsive adjustments */
+@media (min-width: 640px) {
+  .wine-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  .wine-card {
+    width: calc(50% - 1rem);
+  }
+}
+
+@media (min-width: 1024px) {
+  .wine-card {
+    width: calc(33.333% - 1.33rem);
+  }
+}

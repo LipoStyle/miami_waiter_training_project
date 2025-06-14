@@ -1,0 +1,45 @@
+.rules2-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  background-color: #f9f9f9;
+  border-radius: 16px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.05);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.rules2-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #b25c26;
+  margin-bottom: 2.5rem;
+}
+
+.rules2-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.rule2-item {
+  background: #fff;
+  border-left: 4px solid #b25c26;
+  padding: 1.2rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+}
+
+.rule2-heading {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.rule2-text {
+  font-style: italic;
+  color: #555;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
