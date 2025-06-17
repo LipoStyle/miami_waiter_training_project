@@ -72,7 +72,7 @@ export default function EmployeeCocktailRecipes() {
             <div key={recipe.id} className="employee-cocktail-recipe-card">
               {recipe.image ? (
                 <img
-                  src={recipe.image}
+                  src={`/${recipe.image}`}
                   alt={recipe.name}
                   className="employee-cocktail-recipe-image"
                 />

@@ -58,7 +58,7 @@ export default function EmployeeViewCocktailRecipe() {
       <h1>{recipe.name}</h1>
 
       {recipe.image ? (
-        <img src={recipe.image} alt={recipe.name} className="recipe-main-image" />
+        <img src={`/${recipe.image}`} alt={recipe.name} className="recipe-main-image" />
       ) : (
         <div className="recipe-image-placeholder">No Image</div>
       )}

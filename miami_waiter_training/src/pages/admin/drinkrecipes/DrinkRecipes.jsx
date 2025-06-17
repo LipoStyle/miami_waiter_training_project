@@ -107,10 +107,11 @@ export default function DrinkRecipes() {
             >
               {recipe.image ? (
                 <img
-                  src={recipe.image}
+                  src={`/${recipe.image}`}
                   alt={recipe.name}
                   className="drink-recipe-image"
                 />
+
               ) : (
                 <div className="drink-recipe-placeholder">No Image</div>
               )}
