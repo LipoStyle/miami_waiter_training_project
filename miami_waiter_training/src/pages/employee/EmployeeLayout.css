@@ -1,42 +1,109 @@
+/* Layout container */
 .employee-layout {
   display: flex;
   min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
 }
 
+/* Sidebar styling */
 .employee-sidebar {
-  width: 240px;
-  background-color: #2A2A2A;
-  color: #FFF;
-  padding: 1rem;
+  width: 260px;
+  background: linear-gradient(to bottom, #1f1f1f, #2a2a2a);
+  color: #ffffff;
+  padding: 2rem 1.5rem;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 10;
 }
 
 .employee-sidebar-title {
-  font-size: 1.5rem;
-  margin-bottom: 1.5rem;
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #ffffff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 0.75rem;
 }
 
 .employee-sidebar-menu {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 .employee-sidebar-menu li {
-  margin-bottom: 1rem;
+  margin-bottom: 1.2rem;
 }
 
 .employee-sidebar-link {
-  color: #FFF;
+  color: #ffffff;
   text-decoration: none;
-  font-size: 1rem;
-  transition: color 0.2s;
+  font-size: 1.05rem;
+  font-weight: 500;
+  display: block;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  transition: background 0.3s, color 0.3s;
 }
 
 .employee-sidebar-link:hover {
-  color: #10b981; /* Nice green hover */
+  background-color: #10b981;
+  color: #ffffff;
 }
 
+/* Main content area */
 .employee-main {
   flex: 1;
-  padding: 2rem;
-  background-color: #F9FAFB; /* light background for content */
+  padding: 3rem 2rem;
+  background-color: #f9fafb;
+  overflow-x: hidden;
+}
+
+/* Responsive layout adjustments */
+@media (max-width: 1024px) {
+  .employee-sidebar {
+    width: 220px;
+    padding: 1.5rem 1rem;
+  }
+
+  .employee-sidebar-title {
+    font-size: 1.5rem;
+  }
+
+  .employee-sidebar-link {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .employee-layout {
+    flex-direction: column;
+  }
+
+  .employee-sidebar {
+    width: 100%;
+    padding: 1rem;
+    box-shadow: none;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .employee-main {
+    padding: 2rem 1rem;
+  }
+
+  .employee-sidebar-menu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .employee-sidebar-menu li {
+    margin: 0.5rem;
+  }
+
+  .employee-sidebar-link {
+    padding: 0.5rem 0.8rem;
+    font-size: 0.95rem;
+  }
 }

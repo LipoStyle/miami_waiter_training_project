@@ -9,19 +9,19 @@ const barToolsData = [
   },
   {
     name: 'Fine Strainer',
-    image: '/images/tools/fine-strainer.jpg',
+    image: '/images/tools/fine-strainer.webp',
     description:
       'Σε συνδυασμό με το Hawthorne, το fine αφαιρεί ακόμα περισσότερο πάγο (στην ουσία νερό). Σε ποτά με ασπράδι αφαιρεί τις μεγάλες φυσαλίδες αέρα, κάνοντας τον αφρό πιο πυκνό.'
   },
   {
     name: 'Julep Strainer',
-    image: '/images/tools/julep-strainer.jpg',
+    image: '/images/tools/julep-strainer.webp',
     description:
       'Μία κατασκευή που χρησιμοποιούταν στα Mint Juleps για να κρατάει πίσω τον πάγο μιας και τότε δεν υπήρχαν καλαμάκια. Πλέον χρησιμοποιείται για να σουρώνουμε από Martini Stirring Jar.'
   },
   {
     name: 'Muddler',
-    image: '/images/tools/muddler.jpg',
+    image: '/images/tools/muddler.jpeg',
     description:
       'Στην ουσία ένα ξύλινο ή πλαστικό γουδί για να πρεσσάρεις φρούτα, ζάχαρη, βότανα, μπαχαρικά κλπ. και να απελευθερώσεις γεύσεις και αρώματα.'
   },
@@ -33,13 +33,13 @@ const barToolsData = [
   },
   {
     name: '25-50 Jigger / Mr. Slim / Thimble Measure',
-    image: '/images/tools/jigger.jpg',
+    image: '/images/tools/jigger.webp',
     description:
       'Το 25-50 έχει επίσης γραμμές 15-35 και το Mr.Slim 5/10/15/20/25/10/20/30/40/50. Με αυτά τα δύο μπορούμε να μετρήσουμε τα πάντα, γρήγορα, και φυσικά να παραδίδουμε πάντα το ίδιο αποτέλεσμα. Τα Thimble, δεν χρησιμοποιούνται για ποτά αλλά για πράγματα όπως μικρή, μέτρια και μεγάλη μερίδα κρασί 125/175/250ml.'
   },
   {
     name: 'Koriko Tin Shaker',
-    image: '/images/tools/koriko-tin.jpg',
+    image: '/images/tools/koriko-tin.webp',
     description:
       'Σε αντίθεση με τα γυάλινα shaker, το Koriko μας επιτρέπει να ελέγχουμε την θερμοκρασία του ποτού κατά την διάρκεια του χτυπήματος και με τα δύο χέρια.'
   },
@@ -57,19 +57,19 @@ const barToolsData = [
   },
   {
     name: 'Mexican Elbow',
-    image: '/images/tools/mexican-elbow.jpg',
+    image: '/images/tools/mexican-elbow.jpeg',
     description:
       'Στίφτης φρέσκων εσπεριδοειδών σε περίπτωση που δεν έχουμε έτοιμο χυμό.'
   },
   {
     name: 'Measuring Spoons',
-    image: '/images/tools/measuring-spoons.jpg',
+    image: '/images/tools/measuring-spoons.webp',
     description:
       'Σύνολο μικρών μεζούρων για ακρίβεια δόσεων.'
   },
   {
     name: 'Bar Blade',
-    image: '/images/tools/bar-blade.jpg',
+    image: '/images/tools/bar-blade.webp',
     description:
       'Ανοιχτήρι μπουκαλιών μπύρας, τόνικ κλπ. Η τρύπα στο πίσω μέρος βοηθάει να το τραβήξουμε από τις πίσω τσέπες με άνεση και ταχύτητα. Είναι πολύ σύνηθες να είναι προσωποποιημένα στον/ην κάθε bartender.'
   },
@@ -93,13 +93,13 @@ const barToolsData = [
   },
   {
     name: 'Vintage Dash Bottle / Square Dash',
-    image: '/images/tools/dash-bottle.jpg',
+    image: '/images/tools/dash-bottle.webp',
     description:
       'Αποθήκευση και διοχέτευση υγρών με μικρές καταναλώσεις όπως αψέντι και “σπιτικά” bitters.'
   },
   {
     name: 'Pour Spout',
-    image: '/images/tools/pour-spout.jpg',
+    image: '/images/tools/pour-spout.webp',
     description:
       'Υπάρχουν δύο μεγέθη. Το μικρό που χρησιμοποιούμε στα μπουκάλια αλκοόλ και το μεγάλο για τα πιο παχύρρευστα όπως τα σιρόπια.'
   }
